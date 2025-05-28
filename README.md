@@ -13,13 +13,17 @@ This project implements a deep convolutional autoencoder to perform content-base
 This project uses the Animal Dataset for training; you can obtain it by running the following code-
 
 import kagglehub
+
 path = kagglehub.dataset_download("theaayushbajaj/cbir-dataset")
+
 print("Path to dataset files:", path)
 
 After training of model, input image provides to model for test-
+
 ![image](https://github.com/user-attachments/assets/a1604039-ab2e-44b1-b6dd-ff13b837c1af)
 
 Recieved output from model is-
+
 ![image](https://github.com/user-attachments/assets/b7a87603-ab35-4da6-8211-3a66c1df0e05)
 
 
